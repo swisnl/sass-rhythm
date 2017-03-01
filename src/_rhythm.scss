@@ -1,14 +1,14 @@
 $sass-rhythm: 8 !default;
-$sass-root-font-size: 16px !default;
+$sass-rhythm-root-font-size: 16px !default;
 
 @function sass-rhythm-unitless($number) {
   @return $number / ($number * 0 + 1);
 }
 
 @function sass-rhythm($multiplier: 1) {
-  @return $multiplier * (($sass-rhythm / sass-rhythm-unitless($sass-root-font-size)) * 1rem);
+  @return $multiplier * (($sass-rhythm / sass-rhythm-unitless($sass-rhythm-root-font-size)) * 1rem);
 }
 
 @function sass-rhythm-relative-root-font-size() {
-  @return (sass-rhythm-unitless($sass-root-font-size) / 16) * 100%;
+  @return (sass-rhythm-unitless($sass-rhythm-root-font-size) / 16) * 100%;
 }
