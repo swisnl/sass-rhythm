@@ -1,0 +1,33 @@
+{
+  "name": "sass-rhythm",
+  "version": "0.1.0",
+  "description": "Helper function for maintaining rhythm in your css",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swisnl/sass-rhythm"
+  },
+  "keywords": [
+    "sass",
+    "rhythm",
+    "vertical-rhythm",
+    "font-size",
+    "line-height"
+  ],
+  "author": {
+    "name": "SWIS",
+    "email": "rogier@swis.nl",
+    "url": "http://www.swis.nl/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swisnl/sass-rhythm/issues"
+  },
+  "homepage": "https://github.com/swisnl/sass-rhythm#readme",
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "sass-true": "^2.0.3"
+  }
+}

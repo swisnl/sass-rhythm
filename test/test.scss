@@ -1,0 +1,22 @@
+@import "true";
+@import "../src/rhythm";
+
+@include test-module('sass-rhythm global') {
+  @include test('Get a unitless option') {
+    $test: sass-rhythm-unitless(16px);
+    $expect: 16;
+    @include assert-equal($test, $expect);
+  }
+
+  @include test('Get a rhythm value in rems') {
+    $test: sass-rhythm(1);
+    $expect: 0.5rem;
+    @include assert-equal($test, $expect);
+  }
+
+  @include test('Get a relative root font size in percentage') {
+    $test: sass-rhythm-relative-root-font-size();
+    $expect: 100%;
+    @include assert-equal($test, $expect);
+  }
+}
