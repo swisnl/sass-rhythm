@@ -1,7 +1,7 @@
 # sass-rhythm
 [![Build Status](https://travis-ci.org/swisnl/sass-rhythm.svg?branch=master)](https://travis-ci.org/swisnl/sass-rhythm)
 
-Helper function for maintaining rhythm in your css
+Sass helper functions for maintaining a vertical rhythm in your frontend design.
 
 ## Install
 ```cli
@@ -13,7 +13,7 @@ npm install --save-dev sass-rhythm
 ```
 
 ## Usage
-```css
+```scss
 // Optionally change these variables
 $sass-rhythm: 8;
 $sass-rhythm-root-font-size: 16px;
@@ -22,8 +22,8 @@ $sass-rhythm-root-font-size: 16px;
 @import "path/to/sass-rhythm/rhythm";
 ```
 
-Add the following to your base.scss and play around with this to satisfy your needs.
-```css
+Add the following to your base.scss and play around with this to satisfy your needs. 
+```scss
 html {
   font-size: sass-rhythm-relative-root-font-size();
 }
