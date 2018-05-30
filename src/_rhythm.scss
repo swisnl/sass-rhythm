@@ -5,8 +5,8 @@ $sass-rhythm-root-font-size: 16px !default;
   @return $number / ($number * 0 + 1);
 }
 
-@function sass-rhythm($multiplier: 1) {
-  @return $multiplier * (($sass-rhythm / sass-rhythm-unitless($sass-rhythm-root-font-size)) * 1rem);
+@function sass-rhythm($multiplier: 1, $offset-pixels: 0) {
+  @return ($multiplier * (($sass-rhythm / sass-rhythm-unitless($sass-rhythm-root-font-size)) * 1rem) + (1rem / sass-rhythm-unitless($sass-rhythm-root-font-size) * $offset-pixels));
 }
 
 @function sass-rhythm-relative-root-font-size() {
