@@ -2,6 +2,7 @@
   "name": "sass-rhythm",
   "version": "0.1.1",
   "description": "Helper function for maintaining rhythm in your css",
+  "main": "src/_rhythm.scss",
   "scripts": {
     "test": "mocha test/test.js"
   },
