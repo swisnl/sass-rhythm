@@ -16,7 +16,7 @@ npm install --save-dev sass-rhythm
 ## Usage
 ```scss
 // Optionally change these variables
-$sass-rhythm: 8;
+$sass-rhythm: 4;
 $sass-rhythm-root-font-size: 16px;
 
 // Include this library
@@ -53,3 +53,12 @@ h3 {
   line-height: sass-rhythm(4);
 }
 ```
+
+## Options
+
+The `sass-rhythm` function excepts two optional variables:
+
+Variable | Default | Description
+--- | --- | ---
+`$multiplier` | 1 | This is how many times the rhythm is applied
+`$offset-pixels` | 0 | This is how many pixels will be added or subtracted from the value
