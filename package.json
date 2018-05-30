@@ -1,6 +1,6 @@
 {
   "name": "sass-rhythm",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Helper function for maintaining rhythm in your css",
   "main": "src/_rhythm.scss",
   "scripts": {
