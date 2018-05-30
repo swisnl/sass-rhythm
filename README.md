@@ -20,7 +20,7 @@ $sass-rhythm: 8;
 $sass-rhythm-root-font-size: 16px;
 
 // Include this library
-@import "path/to/sass-rhythm/rhythm";
+@import "~sass-rhythm";
 ```
 
 Add the following to your base.scss and play around with this to satisfy your needs. 
