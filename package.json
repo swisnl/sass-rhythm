@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/swisnl/sass-rhythm#readme",
   "devDependencies": {
-    "mocha": "^2.5.3",
-    "sass-true": "^2.0.3"
+    "mocha": "^7.1.2",
+    "sass-true": "^5.0.0"
   }
 }
