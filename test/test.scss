@@ -1,4 +1,4 @@
-@import "true";
+@import '../node_modules/sass-true/sass/true';
 @import "../src/rhythm";
 
 @include test-module('sass-rhythm global') {

@@ -1,5 +1,7 @@
-var path = require('path');
-var sassTrue = require('sass-true');
+const path = require('path');
+const assert = require('assert');
+const sassTrue = require('sass-true');
+const describe = require("mocha");
 
-var sassFile = path.join(__dirname, 'test.scss');
+const sassFile = path.join(__dirname, 'test.scss');
 sassTrue.runSass({file: sassFile}, describe, it);
