@@ -9,6 +9,8 @@
 
 Sass helper functions for maintaining a vertical rhythm in your frontend design.
 
+Since `math.div` is only available in Dart Sass >=1.33 and not LibSass or Ruby Sass (see [the docs](https://sass-lang.com/documentation/breaking-changes/slash-div/)), the newest version of this package is only available for Dart Sass >=1.33. If you need to use this package with older versions of Dart Sass, LibSass or Ruby Sass, feel free to keep using v0.2.0.
+
 ## Install
 ```cli
 yarn add sass-rhythm
