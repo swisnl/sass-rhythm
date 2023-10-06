@@ -1,5 +1,5 @@
 # sass-rhythm
-[![Build Status](https://travis-ci.org/swisnl/sass-rhythm.svg?branch=master)](https://travis-ci.org/swisnl/sass-rhythm)
+[![Build Status](https://img.shields.io/github/checks-status/swisnl/sass-rhythm/master?label=tests)](https://github.com/swisnl/sass-rhythm/actions/workflows/tests.yml)
 [![Latest Version on NPM](https://img.shields.io/npm/v/sass-rhythm.svg)](https://www.npmjs.com/package/sass-rhythm)
 [![Total Downloads](https://img.shields.io/npm/dw/sass-rhythm.svg)](https://www.npmjs.com/package/sass-rhythm)
 [![Software License](https://img.shields.io/npm/l/sass-rhythm.svg)](https://www.npmjs.com/package/sass-rhythm)
