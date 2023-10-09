@@ -13,11 +13,11 @@ Sass helper functions for maintaining a vertical rhythm in your frontend design.
 
 ## Install
 ```cli
-yarn add sass-rhythm
+npm install --save-dev sass-rhythm
 ```
 or
 ```cli
-npm install --save-dev sass-rhythm
+yarn add --dev sass-rhythm
 ```
 
 ## Usage
